@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./Design/ColorGrid.css">
+        <script src="./FrontendFunctions/ColorGrid.js"></script>
+        <title>Art recommendations</title>
+    </head>
+    <body>
+
+        <h1>Please choose a color in the color picker and fill in the grid below</h1>
+            <div>
+                Color picker:
+                <input type="color" id="paint" name="paint" value="#e66465">
+            </div>
+            <div>
+                <table>
+                    <tr>
+                    <td id = "r1c1" onclick = "this.bgColor= document.getElementById('paint').value"></td>
+                    <td id = "r1c2" onclick = "this.bgColor= document.getElementById('paint').value"></td> 
+                    <td id = "r1c3" onclick = "this.bgColor= document.getElementById('paint').value"></td>
+                    <td id = "r1c4" onclick = "this.bgColor= document.getElementById('paint').value"></td>
+                    </tr>
+                    <tr>
+                    <td id = "r2c1" onclick = "this.bgColor= document.getElementById('paint').value"></td>
+                    <td id = "r2c2" onclick = "this.bgColor= document.getElementById('paint').value"></td> 
+                    <td id = "r2c3" onclick = "this.bgColor= document.getElementById('paint').value"></td>
+                    <td id = "r2c4" onclick = "this.bgColor= document.getElementById('paint').value"></td>
+                    </tr>
+                    <tr>
+                        <td id = "r3c1" onclick = "this.bgColor= document.getElementById('paint').value"></td>
+                        <td id = "r3c2" onclick = "this.bgColor= document.getElementById('paint').value"></td> 
+                        <td id = "r3c3" onclick = "this.bgColor= document.getElementById('paint').value"></td>
+                        <td id = "r3c4" onclick = "this.bgColor= document.getElementById('paint').value"></td>
+                    </tr>
+                    <tr>
+                    <td id = "r4c1" onclick = "this.bgColor= document.getElementById('paint').value"></td>
+                    <td id = "r4c2" onclick = "this.bgColor= document.getElementById('paint').value"></td> 
+                    <td id = "r4c3" onclick = "this.bgColor= document.getElementById('paint').value"></td>
+                    <td id = "r4c4" onclick = "this.bgColor= document.getElementById('paint').value"></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <form action = "ChooseComplexity.html">
+                    <button type="next">Next</button> 
+                </form>
+            </div>
+            
+    </body>
+</html>
